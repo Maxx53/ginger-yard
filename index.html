@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Кондитерская 'Пряничное подворье' - фигурки из мастики, подарочные пряники, пряничные букеты ручной работы. Закажите прямо сейчас!">
+    <title>Пряничное подворье | Кондитерская</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение внешнего CSS файла -->
+    <style>
+        /* Базовые стили для примера */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #d2691e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #d2691e;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .menu-item img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea, form button {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background: #d2691e;
+            color: white;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        form button:hover {
+            background: #b35c1a;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <h1>Пряничное подворье</h1>
+        <nav>
+            <a href="#about">О нас</a>
+            <a href="#menu">Меню</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+
+    <!-- Основной контент -->
+    <div class="container">
+        <!-- Раздел "О нас" -->
+        <section id="about">
+            <h2>Добро пожаловать!</h2>
+            <p>Мы создаем уникальные сладости ручной работы, наполненные любовью и теплом. Фигурки из мастики, подарочные пряники и пряничные букеты - каждое изделие является маленьким шедевром.</p>
+        </section>
+
+        <!-- Раздел "Меню" -->
+        <section id="menu">
+            <h2>Наше меню</h2>
+            <div class="menu-item">
+                <img src="images/mastic_figures.jpg" alt="Фигурки из мастики">
+                <div>
+                    <h3>Фигурки из мастики</h3>
+                    <p>Индивидуальные фигурки из мастики для декора тортов или как самостоятельные подарки. Любые тематики и размеры.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/gift_gingerbread.jpg" alt="Подарочные пряники">
+                <div>
+                    <h3>Подарочные пряники</h3>
+                    <p>Ароматные пряники с уникальным дизайном. Идеально подходят для подарков на любой праздник.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/gingerbread_bouquet.jpg" alt="Пряничные букеты">
+                <div>
+                    <h3>Пряничные букеты</h3>
+                    <p>Сладкие букеты из пряников, украшенных глазурью и декором. Удивите своих близких необычным подарком.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел "Отзывы" -->
+        <section id="reviews">
+            <h2>Отзывы клиентов</h2>
+            <blockquote>
+                <p>"Заказала фигурки из мастики для детского праздника - все гости были в восторге! Очень красиво и качественно!"</p>
+                <cite>- Анна</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Подарочный пряник стал отличным презентом для коллеги. Все остались довольны!"</p>
+                <cite>- Елена</cite>
+            </blockquote>
+        </section>
+
+        <!-- Раздел "Контакты" -->
+        <section id="contact">
+            <h2>Свяжитесь с нами</h2>
+            <form action="mailto:example@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Футер -->
+    <footer>
+        <p>&copy; 2025 Пряничное подворье. Все права защищены.</p>
+    </footer>
+</body>
+</html>
